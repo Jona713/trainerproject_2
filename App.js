@@ -1,11 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
 
-import Navigation from './navigations/Navigation'
+import UserNavigation from './navigations/UserNavigation'
 
 export default function App() 
 {
   return 
   (
-    <Navigation/>
+    <UserNavigation/>
   )
 }
